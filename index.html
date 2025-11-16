@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İyison Fotoğrafçılık</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">İyison Fotoğrafçılık</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="ozel-gun-cekimleri.html">Özel Gün Çekimleri</a></li>
+                    <li><a href="konsept-cekimler.html">Konsept Çekimler</a></li>
+                    <li><a href="dis-cekimler.html">Dış Çekimler</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html" class="contact-link">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-image-container">
+            <img src="assets/images/placeholder-ana.jpg" alt="Ana sayfa çift fotoğrafı" class="hero-image">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h2 class="animate-text">Anı Yakala.</h2>
+                    <h2 class="animate-text">Duyguyu Paylaş</h2>
+                    <p class="animate-text">Hikayelerimiz Objektifimde Can Buluyor</p>
+                    <a href="#gallery" class="cta-button">Portfolyo'yu Keşfet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-work" class="featured-work-section">
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slider-track">
+                    <div class="slider-slide active">
+                        <img src="assets/images/placeholder-kucuk1.jpg" alt="Çalışma 1">
+                    </div>
+                    <div class="slider-slide">
+                        <img src="assets/images/placeholder-kucuk2.jpg" alt="Çalışma 2">
+                    </div>
+                    <div class="slider-slide">
+                        <img src="assets/images/placeholder-kucuk3.jpg" alt="Çalışma 3">
+                    </div>
+                    <div class="slider-slide">
+                        <img src="assets/images/placeholder-kucuk1.jpg" alt="Çalışma 4">
+                    </div>
+                    <div class="slider-slide">
+                        <img src="assets/images/placeholder-kucuk2.jpg" alt="Çalışma 5">
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn slider-btn-prev" aria-label="Önceki">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn slider-btn-next" aria-label="Sonraki">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding services-section">
+        <h3 class="section-title">Özel Gün Çekimleri</h3>
+        <p class="section-subtitle">Hayatınızın en özel anlarını ölümsüzleştiriyoruz</p>
+        <div class="services-grid">
+            <a href="nisan.html" class="service-card">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h4>Nişan</h4>
+                <p>Nişan töreninizin en güzel anlarını yakalıyoruz</p>
+            </a>
+            <a href="kina.html" class="service-card">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-hand-sparkles"></i>
+                </div>
+                <h4>Kına</h4>
+                <p>Geleneksel kına gecesinin büyülü atmosferi</p>
+            </a>
+            <a href="dugun.html" class="service-card">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-ring"></i>
+                </div>
+                <h4>Düğün</h4>
+                <p>Hayatınızın en özel gününü unutulmaz kılıyoruz</p>
+            </a>
+            <a href="sunnet.html" class="service-card">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-child"></i>
+                </div>
+                <h4>Sünnet</h4>
+                <p>Çocuğunuzun özel gününü ölümsüzleştiriyoruz</p>
+            </a>
+            <a href="mezuniyet.html" class="service-card">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h4>Mezuniyet</h4>
+                <p>Başarı dolu anlarınızı fotoğraflıyoruz</p>
+            </a>
+            <a href="kurumsal.html" class="service-card">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h4>Kurumsal</h4>
+                <p>Profesyonel kurumsal etkinlik çekimleri</p>
+            </a>
+            <a href="etkinlik.html" class="service-card">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h4>Etkinlik</h4>
+                <p>Özel etkinliklerinizi profesyonelce kaydediyoruz</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="concept-outdoor" class="section-padding concept-section">
+        <h3 class="section-title">Konsept & Dış Çekimler</h3>
+        <p class="section-subtitle">Yaratıcı konseptler ve doğal mekanlarda çekimler</p>
+        <div class="concept-grid">
+            <a href="konsept-cekimler.html" class="concept-card">
+                <div class="concept-image">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h4>Konsept Çekimler</h4>
+                <p>Özgün ve yaratıcı konseptlerle hayal gücünüzü fotoğraflara yansıtıyoruz</p>
+            </a>
+            <a href="dis-cekimler.html" class="concept-card">
+                <div class="concept-image">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <h4>Dış Çekimler</h4>
+                <p>Doğanın güzelliğiyle buluşan açık hava çekimleri</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section section-padding">
+        <div class="about-content">
+            <div class="team-avatars">
+                <img src="assets/images/placeholder-avatar1.jpg" alt="Ekip Üyesi 1">
+                <img src="assets/images/placeholder-avatar2.jpg" alt="Ekip Üyesi 2">
+                <img src="assets/images/placeholder-avatar3.jpg" alt="Ekip Üyesi 3">
+            </div>
+            <div class="about-text">
+                <p>"Denizin sonsuzluğundan dağların zirvesine, her anı özenle yakalıyorum. İnsanların hikayelerini anlatmak, duygusal ve doğal kareler yaratmak benim işim. Sizin için de unutulmaz anılarınızı fotoğraflayabilirim."</p>
+                <a href="hakkimizda.html" class="more-info-button">Daha Fazla Bilgi</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2024 İyison Fotoğrafçılık</p>
+            <div class="footer-contact">
+                <p>@iyisonfotoculuk | <a href="mailto:info@iyisonfotografcilik.com">info@iyisonfotografcilik.com</a> | +90 555 555 55 55</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

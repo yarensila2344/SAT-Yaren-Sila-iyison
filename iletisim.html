@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - İyison Fotoğrafçılık</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">İyison Fotoğrafçılık</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="ozel-gun-cekimleri.html">Özel Gün Çekimleri</a></li>
+                    <li><a href="konsept-cekimler.html">Konsept Çekimler</a></li>
+                    <li><a href="dis-cekimler.html">Dış Çekimler</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html" class="contact-link">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Ana Sayfa</a>
+            <span>/</span>
+            <span>İletişim</span>
+        </div>
+    </div>
+
+    <div class="page-header">
+        <h1>İletişim</h1>
+        <p>Bizimle iletişime geçin, özel gününüz için en uygun çözümü birlikte planlayalım.</p>
+    </div>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>İletişim Bilgileri</h3>
+                    <p>
+                        <i class="fas fa-phone" style="color: var(--primary-color); margin-right: 10px;"></i>
+                        <strong>Telefon:</strong><br>
+                        <a href="tel:+905555555555">+90 555 555 55 55</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope" style="color: var(--primary-color); margin-right: 10px;"></i>
+                        <strong>E-posta:</strong><br>
+                        <a href="mailto:info@iyisonfotografcilik.com">info@iyisonfotografcilik.com</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-instagram" style="color: var(--primary-color); margin-right: 10px;"></i>
+                        <strong>Instagram:</strong><br>
+                        <a href="#" target="_blank">@iyisonfotoculuk</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt" style="color: var(--primary-color); margin-right: 10px;"></i>
+                        <strong>Adres:</strong><br>
+                        Örnek Mahalle, Örnek Sokak No: 123<br>
+                        İstanbul, Türkiye
+                    </p>
+                    <div style="margin-top: 40px; padding: 30px; background: var(--secondary-color); border-radius: 15px;">
+                        <h4 style="font-family: 'Playfair Display', serif; margin-bottom: 15px; color: var(--accent-color);">Çalışma Saatleri</h4>
+                        <p style="margin-bottom: 10px;"><strong>Pazartesi - Cuma:</strong> 09:00 - 18:00</p>
+                        <p style="margin-bottom: 10px;"><strong>Cumartesi:</strong> 10:00 - 16:00</p>
+                        <p><strong>Pazar:</strong> Kapalı</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 2em; margin-bottom: 30px; color: var(--accent-color);">Bize Ulaşın</h3>
+                    <form id="contactForm">
+                        <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+                        <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+                        <input type="tel" name="phone" placeholder="Telefon Numaranız" required>
+                        <textarea name="message" placeholder="Mesajınız" required></textarea>
+                        <button type="submit">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2024 İyison Fotoğrafçılık</p>
+            <div class="footer-contact">
+                <p>@iyisonfotoculuk | <a href="mailto:info@iyisonfotografcilik.com">info@iyisonfotografcilik.com</a> | +90 555 555 55 55</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // İletişim formu
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
+
